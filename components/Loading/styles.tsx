@@ -12,5 +12,8 @@ export const Container = styled.View`
 `;
 
 export const Load = styled.Image.attrs({
-  source: require('./../../assets/loading.gif'),
-})``;
+  source: require('./../../assets/splash.png'),
+})`
+  width: 100%;
+  height: 100%;
+`;
