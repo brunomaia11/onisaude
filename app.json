@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "onisaude",
-    "slug": "onisaude",
-    "version": "1.0.0",
+    "name": "Onisaúde",
+    "slug": "Onisaude",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -17,9 +17,13 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "br.com.onisaude",
+      "buildNumber": "1.0.1",
       "supportsTablet": true
     },
     "android": {
+      "package": "br.com.onisaude",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
