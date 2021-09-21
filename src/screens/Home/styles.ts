@@ -16,7 +16,7 @@ export const HeaderApp = styled.View`
 
 export const Content = styled.View`
   flex: 1;
-  margin-top: 20px;
+  margin-top: 27px;
   width: 100%;
   height: 100%;
   background-color: aqua;
