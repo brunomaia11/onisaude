@@ -2,7 +2,7 @@
   "expo": {
     "name": "Onisaúde",
     "slug": "Onisaude",
-    "version": "1.0.1",
+    "version": "1.0.5",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -18,12 +18,15 @@
     ],
     "ios": {
       "bundleIdentifier": "br.com.onisaude",
-      "buildNumber": "1.0.1",
-      "supportsTablet": true
+      "buildNumber": "1.0.5",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Este aplicativo usa a câmera para a foto do perfil."
+      }
     },
     "android": {
       "package": "br.com.onisaude",
-      "versionCode": 1,
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
